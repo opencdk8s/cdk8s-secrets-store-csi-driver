@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hello 1`] = `
+Array [
+  Object {
+    "apiVersion": "secrets-store.csi.x-k8s.io/v1",
+    "kind": "SecretProviderClass",
+    "metadata": Object {
+      "name": "test-test1-c8bcf0bf",
+    },
+  },
+  Object {
+    "apiVersion": "secrets-store.csi.x-k8s.io/v1",
+    "kind": "SecretProviderClassList",
+    "metadata": Object {
+      "name": "test-c87b5978",
+    },
+  },
+]
+`;
