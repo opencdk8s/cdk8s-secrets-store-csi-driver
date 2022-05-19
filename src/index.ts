@@ -25,7 +25,7 @@ export enum Provider {
 
 export interface SecretProviderClassSpec {
   readonly provider?: Provider;
-  readonly parameters?: { [key: string]: string};
+  readonly parameters?: { [key: string]: any};
   readonly secretObjects?: SecretObject[];
 }
 

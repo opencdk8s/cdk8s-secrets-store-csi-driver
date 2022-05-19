@@ -81156,7 +81156,7 @@ const secretProviderClassSpec: SecretProviderClassSpec = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec.property.parameters">parameters</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec.property.parameters">parameters</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec.property.provider">provider</a></code> | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.Provider">Provider</a></code> | *No description.* |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec.property.secretObjects">secretObjects</a></code> | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretObject">SecretObject</a>[]</code> | *No description.* |
 
@@ -81165,10 +81165,10 @@ const secretProviderClassSpec: SecretProviderClassSpec = { ... }
 ##### `parameters`<sup>Optional</sup> <a name="parameters" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassSpec.property.parameters"></a>
 
 ```typescript
-public readonly parameters: {[ key: string ]: string};
+public readonly parameters: {[ key: string ]: any};
 ```
 
-- *Type:* {[ key: string ]: string}
+- *Type:* {[ key: string ]: any}
 
 ---
 
