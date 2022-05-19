@@ -1,5 +1,5 @@
 {
-  "name": "cdk8s-secrets-store-csi-driver",
+  "name": "@opencdk8s/cdk8s-secrets-store-csi-driver",
   "repository": {
     "type": "git",
     "url": "https://github.com/opencdk8s/cdk8s-secrets-store-csi-driver.git"
@@ -66,6 +66,9 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [

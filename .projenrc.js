@@ -5,7 +5,7 @@ const project = new cdk8s.ConstructLibraryCdk8s({
   cdk8sVersion: '1.4.10',
   defaultReleaseBranch: 'main',
   stability: 'experimental',
-  name: 'cdk8s-secrets-store-csi-driver',
+  name: '@opencdk8s/cdk8s-secrets-store-csi-driver',
   repositoryUrl: 'https://github.com/opencdk8s/cdk8s-secrets-store-csi-driver.git',
   publishToGo: {
     gitUserName: 'Hunter-Thompson',
