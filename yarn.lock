@@ -1174,13 +1174,13 @@ case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdk8s@1.4.10:
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/cdk8s/-/cdk8s-1.4.10.tgz#9d837cd9a781c2f65eb3215519c5d6d07828cf7f"
-  integrity sha512-k0dLzCGg0i7MJFG6wr9mvaq3aaGS2nbwkOtwojiHiGj3wMNLPgZwrZ37s6ZRhquWdZqkOnAfgU7QgxRNmE6wgw==
+cdk8s@2.2.74:
+  version "2.2.74"
+  resolved "https://registry.yarnpkg.com/cdk8s/-/cdk8s-2.2.74.tgz#119536f79644c5c77387a37c15164a79a751b26b"
+  integrity sha512-BoV7w2THoL3Mixh2XTJGRMwVMJyBvpAFl7l6iO0mabjKK0qhLSSVIX3PRlR8jqzMnbpu/Jnv5lGHndXY2YuWag==
   dependencies:
     fast-json-patch "^2.2.1"
-    follow-redirects "^1.14.7"
+    follow-redirects "^1.14.9"
     yaml "2.0.0-7"
 
 chalk@^2.0.0, chalk@^2.4.2:
@@ -1312,10 +1312,10 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-constructs@3.3.196:
-  version "3.3.196"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.196.tgz#6662c3a07aa07e87e422f4120cb2d9eafdeae0a9"
-  integrity sha512-0Sz3L28vykhG57fc2DljNBph2MBkedSZZcYIArv+wDYKm3vvio2PNMbK66FB9Vl+dKicE/RV9LDMD/Cd3MSelg==
+constructs@10.0.5:
+  version "10.0.5"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.5.tgz#48c0402f1b98bbf5664efff74a8015e6e8a9f41e"
+  integrity sha512-IwOwekzrASFC3qt4ozCtV09rteAIAesuCGsW0p+uBfqHd2XcvA5CXqJjgf4eUqm6g8e/noXlVCMDWwC8GaLtrg==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -2130,10 +2130,10 @@ flatted@^3.1.0, flatted@^3.2.5:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
 
-follow-redirects@^1.14.7:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.0.tgz#06441868281c86d0dda4ad8bdaead2d02dca89d4"
-  integrity sha512-aExlJShTV4qOUOL7yF1U5tvLCB0xQuudbf6toyYA0E/acBNw71mvjFTnLaRp50aQaYocMR0a/RMMBIHeZnGyjQ==
+follow-redirects@^1.14.9:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
+  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
 
 for-each@^0.3.3:
   version "0.3.3"

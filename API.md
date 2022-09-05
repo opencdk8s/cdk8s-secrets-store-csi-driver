@@ -120,8 +120,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.kube-aggregator.pkg.apis.apiregistration.v1.APIService". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeApiService.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -171,12 +190,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiService.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -393,8 +425,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.kube-aggregator.pkg.apis.apiregistration.v1.APIServiceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeApiServiceList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -444,12 +495,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -666,8 +730,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeApiServiceListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -717,12 +800,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -941,8 +1037,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIService". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeApiServiceV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -992,12 +1107,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeApiServiceV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -1216,8 +1344,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Binding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeBinding.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -1267,12 +1414,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeBinding.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -1495,8 +1655,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.certificates.v1.CertificateSigningRequest". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCertificateSigningRequest.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -1546,12 +1725,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequest.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -1768,8 +1960,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.certificates.v1.CertificateSigningRequestList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCertificateSigningRequestList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -1819,12 +2030,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -2039,8 +2263,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.certificates.v1beta1.CertificateSigningRequestList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCertificateSigningRequestListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -2090,12 +2333,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -2312,8 +2568,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.certificates.v1beta1.CertificateSigningRequest". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCertificateSigningRequestV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -2363,12 +2638,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCertificateSigningRequestV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -2585,8 +2873,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.ClusterRole". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRole.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -2636,12 +2943,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRole.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -2860,8 +3180,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.ClusterRoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBinding.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -2911,12 +3250,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBinding.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -3133,8 +3485,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.ClusterRoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBindingList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -3184,12 +3555,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -3408,8 +3792,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.ClusterRoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBindingListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -3459,12 +3862,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -3683,8 +4099,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.ClusterRoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBindingListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -3734,12 +4169,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -3958,8 +4406,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.ClusterRoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBindingV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -4009,12 +4476,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -4233,8 +4713,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.ClusterRoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleBindingV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -4284,12 +4783,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleBindingV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -4506,8 +5018,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.ClusterRoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -4557,12 +5088,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -4781,8 +5325,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.ClusterRoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -4832,12 +5395,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -5056,8 +5632,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.ClusterRoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -5107,12 +5702,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -5331,8 +5939,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.ClusterRole". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -5382,12 +6009,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -5606,8 +6246,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.ClusterRole". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeClusterRoleV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -5657,12 +6316,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeClusterRoleV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -5881,8 +6553,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ComponentStatus". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeComponentStatus.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -5932,12 +6623,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatus.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -6156,8 +6860,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ComponentStatusList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeComponentStatusList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -6207,12 +6930,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeComponentStatusList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -6429,8 +7165,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ConfigMap". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeConfigMap.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -6480,12 +7235,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMap.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -6702,8 +7470,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ConfigMapList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeConfigMapList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -6753,12 +7540,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeConfigMapList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -6977,8 +7777,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.ControllerRevision". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeControllerRevision.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -7028,12 +7847,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevision.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -7250,8 +8082,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.ControllerRevisionList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeControllerRevisionList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -7301,12 +8152,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeControllerRevisionList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -7523,8 +8387,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1.CronJob". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCronJob.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -7574,12 +8457,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJob.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -7796,8 +8692,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1.CronJobList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCronJobList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -7847,12 +8762,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -8069,8 +8997,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1beta1.CronJobList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCronJobListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -8120,12 +9067,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -8342,8 +9302,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1beta1.CronJob". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCronJobV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -8393,12 +9372,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCronJobV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -8617,8 +9609,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.CSIDriver". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiDriver.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -8668,12 +9679,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriver.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -8890,8 +9914,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.CSIDriverList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiDriverList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -8941,12 +9984,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -9163,8 +10219,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSIDriverList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiDriverListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -9214,12 +10289,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -9438,8 +10526,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSIDriver". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiDriverV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -9489,12 +10596,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiDriverV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -9713,8 +10833,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.CSINode". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiNode.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -9764,12 +10903,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNode.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -9986,8 +11138,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.CSINodeList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiNodeList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -10037,12 +11208,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -10259,8 +11443,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSINodeList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiNodeListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -10310,12 +11513,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -10534,8 +11750,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSINode". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiNodeV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -10585,12 +11820,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiNodeV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -10807,8 +12055,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1alpha1.CSIStorageCapacityList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiStorageCapacityListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -10858,12 +12125,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -11080,8 +12360,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSIStorageCapacityList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiStorageCapacityListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -11131,12 +12430,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -11363,8 +12675,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1alpha1.CSIStorageCapacity". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiStorageCapacityV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -11414,12 +12745,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -11646,8 +12990,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.CSIStorageCapacity". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCsiStorageCapacityV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -11697,12 +13060,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCsiStorageCapacityV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -11921,8 +13297,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceDefinition". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCustomResourceDefinition.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -11972,12 +13367,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinition.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -12194,8 +13602,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1.CustomResourceDefinitionList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCustomResourceDefinitionList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -12245,12 +13672,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -12467,8 +13907,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCustomResourceDefinitionListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -12518,12 +13977,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -12742,8 +14214,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinition". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeCustomResourceDefinitionV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -12793,12 +14284,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeCustomResourceDefinitionV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -13015,8 +14519,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.DaemonSet". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeDaemonSet.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -13066,12 +14589,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSet.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -13288,8 +14824,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.DaemonSetList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeDaemonSetList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -13339,12 +14894,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDaemonSetList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -13561,8 +15129,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.Deployment". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeDeployment.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -13612,12 +15199,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeployment.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -13834,8 +15434,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.DeploymentList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeDeploymentList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -13885,12 +15504,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeDeploymentList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -14120,8 +15752,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Endpoints". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpoints.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -14171,12 +15822,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpoints.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -14395,8 +16059,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.discovery.v1.EndpointSlice". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpointSlice.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -14446,12 +16129,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSlice.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -14668,8 +16364,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.discovery.v1.EndpointSliceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpointSliceList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -14719,12 +16434,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -14941,8 +16669,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.discovery.v1beta1.EndpointSliceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpointSliceListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -14992,12 +16739,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -15216,8 +16976,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.discovery.v1beta1.EndpointSlice". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpointSliceV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -15267,12 +17046,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointSliceV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -15489,8 +17281,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.EndpointsList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEndpointsList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -15540,12 +17351,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEndpointsList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -15762,8 +17586,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.EphemeralContainers". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEphemeralContainers.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -15813,12 +17656,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEphemeralContainers.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -16037,8 +17893,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.events.v1.Event". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEvent.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -16088,12 +17963,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvent.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -16310,8 +18198,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.events.v1.EventList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEventList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -16361,12 +18268,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -16583,8 +18503,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.events.v1beta1.EventList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEventListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -16634,12 +18573,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -16858,8 +18810,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.events.v1beta1.Event". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEventV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -16909,12 +18880,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEventV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -17133,8 +19117,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1beta1.Eviction". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeEvictionV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -17184,12 +19187,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeEvictionV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -17406,8 +19422,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.flowcontrol.v1beta1.FlowSchemaList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeFlowSchemaListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -17457,12 +19492,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -17681,8 +19729,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.flowcontrol.v1beta1.FlowSchema". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeFlowSchemaV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -17732,12 +19799,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeFlowSchemaV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -17954,8 +20034,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscaler.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -18005,12 +20104,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscaler.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -18227,8 +20339,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscalerList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -18278,12 +20409,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -18500,8 +20644,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscalerListV2Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -18551,12 +20714,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -18773,8 +20949,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v2beta2.HorizontalPodAutoscalerList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscalerListV2Beta2.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -18824,12 +21019,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerListV2Beta2.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -19046,8 +21254,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscaler". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscalerV2Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -19097,12 +21324,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -19319,8 +21559,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v2beta2.HorizontalPodAutoscaler". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeHorizontalPodAutoscalerV2Beta2.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -19370,12 +21629,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeHorizontalPodAutoscalerV2Beta2.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -19594,8 +21866,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.Ingress". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngress.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -19645,12 +21936,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngress.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -19869,8 +22173,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.IngressClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressClass.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -19920,12 +22243,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClass.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -20142,8 +22478,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.IngressClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressClassList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -20193,12 +22548,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -20415,8 +22783,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1beta1.IngressClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressClassListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -20466,12 +22853,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -20690,8 +23090,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1beta1.IngressClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressClassV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -20741,12 +23160,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressClassV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -20963,8 +23395,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.IngressList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -21014,12 +23465,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -21236,8 +23700,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1beta1.IngressList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -21287,12 +23770,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -21511,8 +24007,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1beta1.Ingress". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeIngressV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -21562,12 +24077,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeIngressV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -21784,8 +24312,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1.Job". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeJob.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -21835,12 +24382,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJob.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -22057,8 +24617,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.batch.v1.JobList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeJobList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -22108,12 +24687,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeJobList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -22330,8 +24922,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.coordination.v1.Lease". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLease.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -22381,12 +24992,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLease.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -22603,8 +25227,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.coordination.v1.LeaseList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLeaseList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -22654,12 +25297,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -22876,8 +25532,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.coordination.v1beta1.LeaseList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLeaseListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -22927,12 +25602,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -23149,8 +25837,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.coordination.v1beta1.Lease". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLeaseV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -23200,12 +25907,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLeaseV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -23422,8 +26142,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.LimitRange". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLimitRange.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -23473,12 +26212,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRange.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -23695,8 +26447,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.LimitRangeList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLimitRangeList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -23746,12 +26517,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLimitRangeList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -23970,8 +26754,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1.LocalSubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLocalSubjectAccessReview.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -24021,12 +26824,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReview.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -24245,8 +27061,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1beta1.LocalSubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeLocalSubjectAccessReviewV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -24296,12 +27131,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeLocalSubjectAccessReviewV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -24518,8 +27366,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1.MutatingWebhookConfiguration". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeMutatingWebhookConfiguration.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -24569,12 +27436,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfiguration.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -24791,8 +27671,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1.MutatingWebhookConfigurationList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeMutatingWebhookConfigurationList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -24842,12 +27741,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -25064,8 +27976,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1beta1.MutatingWebhookConfigurationList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeMutatingWebhookConfigurationListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -25115,12 +28046,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -25339,8 +28283,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1beta1.MutatingWebhookConfiguration". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeMutatingWebhookConfigurationV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -25390,12 +28353,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeMutatingWebhookConfigurationV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -25614,8 +28590,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Namespace". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNamespace.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -25665,12 +28660,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespace.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -25887,8 +28895,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.NamespaceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNamespaceList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -25938,12 +28965,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNamespaceList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -26160,8 +29200,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.NetworkPolicy". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNetworkPolicy.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -26211,12 +29270,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicy.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -26433,8 +29505,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.networking.v1.NetworkPolicyList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNetworkPolicyList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -26484,12 +29575,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNetworkPolicyList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -26708,8 +29812,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Node". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNode.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -26759,12 +29882,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNode.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -26981,8 +30117,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.NodeList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeNodeList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -27032,12 +30187,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeNodeList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -27256,8 +30424,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PersistentVolume". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePersistentVolume.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -27307,12 +30494,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolume.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -27529,8 +30729,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PersistentVolumeClaim". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePersistentVolumeClaim.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -27580,12 +30799,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaim.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -27802,8 +31034,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PersistentVolumeClaimList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePersistentVolumeClaimList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -27853,12 +31104,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeClaimList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -28075,8 +31339,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PersistentVolumeList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePersistentVolumeList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -28126,12 +31409,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePersistentVolumeList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -28350,8 +31646,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Pod". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePod.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -28401,12 +31716,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePod.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -28623,8 +31951,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1.PodDisruptionBudget". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodDisruptionBudget.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -28674,12 +32021,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudget.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -28896,8 +32256,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1.PodDisruptionBudgetList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodDisruptionBudgetList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -28947,12 +32326,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -29169,8 +32561,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1beta1.PodDisruptionBudgetList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodDisruptionBudgetListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -29220,12 +32631,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -29442,8 +32866,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1beta1.PodDisruptionBudget". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodDisruptionBudgetV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -29493,12 +32936,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodDisruptionBudgetV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -29715,8 +33171,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PodList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -29766,12 +33241,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -29988,8 +33476,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1beta1.PodSecurityPolicyList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodSecurityPolicyListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -30039,12 +33546,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -30263,8 +33783,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.policy.v1beta1.PodSecurityPolicy". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodSecurityPolicyV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -30314,12 +33853,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodSecurityPolicyV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -30536,8 +34088,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PodTemplate". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodTemplate.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -30587,12 +34158,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplate.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -30809,8 +34393,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.PodTemplateList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePodTemplateList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -30860,12 +34463,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePodTemplateList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -31084,8 +34700,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1.PriorityClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClass.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -31135,12 +34770,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClass.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -31357,8 +35005,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1.PriorityClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClassList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -31408,12 +35075,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -31630,8 +35310,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1alpha1.PriorityClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClassListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -31681,12 +35380,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -31903,8 +35615,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1beta1.PriorityClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClassListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -31954,12 +35685,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -32176,8 +35920,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1alpha1.PriorityClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClassV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -32227,12 +35990,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -32449,8 +36225,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.scheduling.v1beta1.PriorityClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityClassV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -32500,12 +36295,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityClassV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -32722,8 +36530,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.flowcontrol.v1beta1.PriorityLevelConfigurationList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityLevelConfigurationListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -32773,12 +36600,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -32995,8 +36835,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.flowcontrol.v1beta1.PriorityLevelConfiguration". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubePriorityLevelConfigurationV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -33046,12 +36905,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubePriorityLevelConfigurationV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -33268,8 +37140,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.ReplicaSet". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeReplicaSet.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -33319,12 +37210,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSet.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -33541,8 +37445,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.ReplicaSetList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeReplicaSetList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -33592,12 +37515,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicaSetList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -33814,8 +37750,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ReplicationController". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeReplicationController.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -33865,12 +37820,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationController.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -34087,8 +38055,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ReplicationControllerList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeReplicationControllerList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -34138,12 +38125,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeReplicationControllerList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -34360,8 +38360,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ResourceQuota". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeResourceQuota.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -34411,12 +38430,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuota.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -34633,8 +38665,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ResourceQuotaList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeResourceQuotaList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -34684,12 +38735,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeResourceQuotaList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -34906,8 +38970,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.Role". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRole.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -34957,12 +39040,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRole.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -35181,8 +39277,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.RoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBinding.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -35232,12 +39347,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBinding.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -35454,8 +39582,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.RoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBindingList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -35505,12 +39652,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -35727,8 +39887,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.RoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBindingListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -35778,12 +39957,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -36000,8 +40192,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.RoleBindingList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBindingListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -36051,12 +40262,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -36275,8 +40499,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.RoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBindingV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -36326,12 +40569,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -36550,8 +40806,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.RoleBinding". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleBindingV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -36601,12 +40876,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleBindingV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -36823,8 +41111,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1.RoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -36874,12 +41181,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -37098,8 +41418,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.RoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -37149,12 +41488,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -37371,8 +41723,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.RoleList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -37422,12 +41793,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -37646,8 +42030,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1alpha1.Role". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -37697,12 +42100,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -37921,8 +42337,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.rbac.v1beta1.Role". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRoleV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -37972,12 +42407,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRoleV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -38196,8 +42644,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1.RuntimeClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClass.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -38247,12 +42714,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClass.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -38469,8 +42949,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1.RuntimeClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClassList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -38520,12 +43019,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -38742,8 +43254,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1alpha1.RuntimeClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClassListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -38793,12 +43324,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -39015,8 +43559,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1beta1.RuntimeClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClassListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -39066,12 +43629,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -39290,8 +43866,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1alpha1.RuntimeClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClassV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -39341,12 +43936,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -39565,8 +44173,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.node.v1beta1.RuntimeClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeRuntimeClassV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -39616,12 +44243,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeRuntimeClassV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -39838,8 +44478,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.autoscaling.v1.Scale". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeScale.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -39889,12 +44548,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeScale.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -40113,8 +44785,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Secret". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSecret.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -40164,12 +44855,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecret.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -40386,8 +45090,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.SecretList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSecretList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -40437,12 +45160,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSecretList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -40661,8 +45397,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1.SelfSubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSelfSubjectAccessReview.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -40712,12 +45467,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReview.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -40936,8 +45704,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1beta1.SelfSubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSelfSubjectAccessReviewV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -40987,12 +45774,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectAccessReviewV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -41211,8 +46011,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1.SelfSubjectRulesReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSelfSubjectRulesReview.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -41262,12 +46081,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReview.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -41486,8 +46318,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1beta1.SelfSubjectRulesReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSelfSubjectRulesReviewV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -41537,12 +46388,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSelfSubjectRulesReviewV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -41759,8 +46623,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.Service". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeService.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -41810,12 +46693,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeService.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -42032,8 +46928,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ServiceAccount". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeServiceAccount.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -42083,12 +46998,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccount.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -42305,8 +47233,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ServiceAccountList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeServiceAccountList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -42356,12 +47303,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceAccountList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -42578,8 +47538,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.core.v1.ServiceList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeServiceList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -42629,12 +47608,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeServiceList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -42856,8 +47848,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.StatefulSet". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStatefulSet.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -42907,12 +47918,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSet.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -43129,8 +48153,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apps.v1.StatefulSetList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStatefulSetList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -43180,12 +48223,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatefulSetList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -43402,8 +48458,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.apimachinery.pkg.apis.meta.v1.Status". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStatus.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -43453,12 +48528,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStatus.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -43677,8 +48765,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.StorageClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageClass.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -43728,12 +48835,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClass.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -43950,8 +49070,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.StorageClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageClassList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -44001,12 +49140,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -44223,8 +49375,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.StorageClassList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageClassListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -44274,12 +49445,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -44498,8 +49682,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.StorageClass". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageClassV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -44549,12 +49752,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageClassV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -44771,8 +49987,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apiserverinternal.v1alpha1.StorageVersionList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageVersionListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -44822,12 +50057,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -45044,8 +50292,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.apiserverinternal.v1alpha1.StorageVersion". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeStorageVersionV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -45095,12 +50362,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeStorageVersionV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -45317,8 +50597,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1.SubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSubjectAccessReview.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -45368,12 +50667,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReview.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -45590,8 +50902,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authorization.v1beta1.SubjectAccessReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeSubjectAccessReviewV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -45641,12 +50972,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeSubjectAccessReviewV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -45863,8 +51207,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authentication.v1.TokenRequest". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeTokenRequest.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -45914,12 +51277,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenRequest.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -46138,8 +51514,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authentication.v1.TokenReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeTokenReview.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -46189,12 +51584,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReview.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -46413,8 +51821,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.authentication.v1beta1.TokenReview". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeTokenReviewV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -46464,12 +51891,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeTokenReviewV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -46686,8 +52126,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1.ValidatingWebhookConfiguration". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeValidatingWebhookConfiguration.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -46737,12 +52196,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfiguration.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -46959,8 +52431,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1.ValidatingWebhookConfigurationList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeValidatingWebhookConfigurationList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -47010,12 +52501,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -47232,8 +52736,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1beta1.ValidatingWebhookConfigurationList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeValidatingWebhookConfigurationListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -47283,12 +52806,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -47507,8 +53043,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.admissionregistration.v1beta1.ValidatingWebhookConfiguration". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeValidatingWebhookConfigurationV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -47558,12 +53113,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeValidatingWebhookConfigurationV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -47782,8 +53350,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.VolumeAttachment". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachment.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -47833,12 +53420,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachment.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -48055,8 +53655,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1.VolumeAttachmentList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachmentList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -48106,12 +53725,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -48328,8 +53960,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1alpha1.VolumeAttachmentList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachmentListV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -48379,12 +54030,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -48601,8 +54265,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.VolumeAttachmentList". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachmentListV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -48652,12 +54335,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentListV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -48876,8 +54572,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1alpha1.VolumeAttachment". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachmentV1Alpha1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -48927,12 +54642,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Alpha1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -49151,8 +54879,27 @@ Renders the object to Kubernetes JSON.
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.manifest">manifest</a></code> | Renders a Kubernetes manifest for "io.k8s.api.storage.v1beta1.VolumeAttachment". |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.isConstruct"></a>
+
+```typescript
+import { k8s } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+k8s.KubeVolumeAttachmentV1Beta1.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -49202,12 +54949,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.k8s.KubeVolumeAttachmentV1Beta1.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -49425,8 +55185,27 @@ To disable sorting of dictionary keys in output object set the
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.manifest">manifest</a></code> | *No description.* |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.isConstruct"></a>
+
+```typescript
+import { SecretProviderClass } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+SecretProviderClass.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -49472,12 +55251,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClass.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
@@ -49693,8 +55485,27 @@ To disable sorting of dictionary keys in output object set the
 
 | **Name** | **Description** |
 | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.of">of</a></code> | Returns the `ApiObject` named `Resource` which is a child of the given construct. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.manifest">manifest</a></code> | *No description.* |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.isConstruct"></a>
+
+```typescript
+import { SecretProviderClassList } from '@opencdk8s/cdk8s-secrets-store-csi-driver'
+
+SecretProviderClassList.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
 
 ---
 
@@ -49740,12 +55551,25 @@ initialization props.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.apiGroup">apiGroup</a></code> | <code>string</code> | The group portion of the API version (e.g. `authorization.k8s.io`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.apiVersion">apiVersion</a></code> | <code>string</code> | The object's API version (e.g. `authorization.k8s.io/v1`). |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.chart">chart</a></code> | <code>cdk8s.Chart</code> | The chart in which this object is defined. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.kind">kind</a></code> | <code>string</code> | The object kind. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.metadata">metadata</a></code> | <code>cdk8s.ApiObjectMetadataDefinition</code> | Metadata associated with this API object. |
 | <code><a href="#@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.name">name</a></code> | <code>string</code> | The name of the API object. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@opencdk8s/cdk8s-secrets-store-csi-driver.SecretProviderClassList.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 

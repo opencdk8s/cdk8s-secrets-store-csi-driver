@@ -2,7 +2,8 @@ const { cdk8s } = require('projen');
 const project = new cdk8s.ConstructLibraryCdk8s({
   author: 'Hunter-Thompson',
   authorAddress: 'aatman@auroville.org.in',
-  cdk8sVersion: '1.4.10',
+  cdk8sVersion: '2.2.74',
+  constructsVersion: '10.0.5',
   defaultReleaseBranch: 'main',
   stability: 'experimental',
   name: '@opencdk8s/cdk8s-secrets-store-csi-driver',
